@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libgames", "libgames\libgames.csproj", "{2103AE08-B417-45CE-8761-BF3E2071FA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libskills", "libskills\libskills.csproj", "{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2103AE08-B417-45CE-8761-BF3E2071FA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2103AE08-B417-45CE-8761-BF3E2071FA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2103AE08-B417-45CE-8761-BF3E2071FA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2103AE08-B417-45CE-8761-BF3E2071FA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C8D4E2-995A-4C38-BD45-0C5D16E21CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
