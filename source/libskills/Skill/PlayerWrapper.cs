@@ -336,7 +336,7 @@ namespace SKILL
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
         private extern static bool SetPasadddefence(IntPtr p, float v);
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
-        private extern static bool SetPasincefence(IntPtr p, float v);
+        private extern static bool SetPasincdefence(IntPtr p, float v);
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
         private extern static bool SetPasaddhp(IntPtr p, float v);
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
@@ -2006,9 +2006,9 @@ namespace SKILL
         {
             return SetPasadddefence(nativePtr, v);
         }
-        public bool SetPasincefence(float v)
+        public bool SetPasincdefence(float v)
         {
-            return SetPasincefence(nativePtr, v);
+            return SetPasincdefence(nativePtr, v);
         }
         public bool SetPasaddhp(float v)
         {
