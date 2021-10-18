@@ -92,6 +92,8 @@ namespace SKILL
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
         private extern static int GetCharging(IntPtr p);
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
+        private extern static int GetSkillDamage(IntPtr p);
+        [MethodImplAttribute(MethodImplOptions.InternalCall)]
         private extern static void SetPlus(IntPtr p, float v);
         [MethodImplAttribute(MethodImplOptions.InternalCall)]
         private extern static void SetPlus2(IntPtr p, float v);
@@ -295,6 +297,10 @@ namespace SKILL
         public int GetCharging()
         {
             return GetCharging(nativePtr);
+        }
+        public int GetSkillDamage()
+        {
+            return GetSkillDamage(nativePtr);
         }
         public void SetPlus(float v)
         {
